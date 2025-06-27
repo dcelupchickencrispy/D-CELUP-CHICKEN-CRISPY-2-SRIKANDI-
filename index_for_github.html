@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D'CELUP CHICKEN CRISPY 2 SRIKANDI</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: #f8f8f8; color: #333; }
+    .header { background-color: #ff0000; color: white; padding: 15px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+    .header-content { display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 24px; font-weight: bold; }
+    .logo span { color: #ffcc00; }
+    .nav-menu { display: flex; list-style: none; }
+    .nav-menu li { margin-left: 20px; }
+    .nav-menu a { color: white; text-decoration: none; font-weight: 500; }
+    .nav-menu a:hover { color: #ffcc00; }
+    .hero { padding: 40px 0; text-align: center; }
+    .hero img { width: 100%; max-width: 600px; border-radius: 10px; margin-bottom: 20px; }
+    .hero h1 { font-size: 48px; margin-bottom: 20px; }
+    .hero p { font-size: 20px; margin-bottom: 30px; }
+    .btn { display: inline-block; background-color: #ffcc00; color: #333; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: bold; }
+    .btn:hover { background-color: #ff9900; transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); }
+    .section { padding: 80px 0; }
+    .section-title { text-align: center; margin-bottom: 50px; font-size: 36px; color: #ff0000; }
+    .menu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; }
+    .menu-item { background-color: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s; }
+    .menu-item:hover { transform: translateY(-10px); }
+    .menu-img img { width: 100%; height: auto; }
+    .menu-content { padding: 20px; text-align: center; }
+    .menu-title { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+    .menu-price { color: #e60000; font-weight: bold; font-size: 18px; }
+    .contact-info { text-align: center; font-size: 18px; line-height: 1.8; }
+    .contact-info strong { color: #ff0000; }
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 32px; }
+      .hero p { font-size: 16px; }
+      .menu-title { font-size: 18px; }
+      .menu-price { font-size: 16px; }
+      .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        display: block;
+        margin: 10px auto 0;
+      }
+      .menu-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">D'CELUP <span>CHICKEN CRISPY</span> 2 SRIKANDI</div>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <img src="https://via.placeholder.com/600x300?text=Gambar+Banner" alt="Menu Promo" />
+      <h1>Paket Hemat, Rasa Hebat!</h1>
+      <p>Nikmati ayam crispy gurih dengan saus pilihan dan harga bersahabat.</p>
+      <a href="#menu" class="btn">Lihat Menu</a>
+    </div>
+  </section>
+
+  <section class="section" id="menu">
+    <div class="container">
+      <h2 class="section-title">Menu Spesial Kami</h2>
+      <div class="menu-grid">
+
+        <div class="menu-item">
+          <div class="menu-img"><img src="https://via.placeholder.com/400x250?text=Lada+Hitam" alt="Ayam Saus Lada Hitam" /></div>
+          <div class="menu-content">
+            <div class="menu-title">Ayam Saus Lada Hitam</div>
+            <div class="menu-price">Rp 12.000 (tanpa nasi)<br>Rp 16.000 (paket + nasi)</div>
+            <a class="btn" href="https://wa.me/628569052024?text=Saya%20ingin%20pesan%20Ayam%20Saus%20Lada%20Hitam%20dari%20D'CELUP%20CHICKEN%20CRISPY%202%20SRIKANDI" target="_blank">Order via WhatsApp</a>
+          </div>
+        </div>
+    
+        <div class="menu-item">
+          <div class="menu-img"><img src="https://via.placeholder.com/400x250?text=Sadis" alt="Ayam Saus Sadis" /></div>
+          <div class="menu-content">
+            <div class="menu-title">Ayam Saus Sadis</div>
+            <div class="menu-price">Rp 12.000 (tanpa nasi)<br>Rp 16.000 (paket + nasi)</div>
+            <a class="btn" href="https://wa.me/628569052024?text=Saya%20ingin%20pesan%20Ayam%20Saus%20Sadis%20dari%20D'CELUP%20CHICKEN%20CRISPY%202%20SRIKANDI" target="_blank">Order via WhatsApp</a>
+          </div>
+        </div>
+    
+        <div class="menu-item">
+          <div class="menu-img"><img src="https://via.placeholder.com/400x250?text=Teriyaki" alt="Ayam Saus Teriyaki" /></div>
+          <div class="menu-content">
+            <div class="menu-title">Ayam Saus Teriyaki</div>
+            <div class="menu-price">Rp 12.000 (tanpa nasi)<br>Rp 16.000 (paket + nasi)</div>
+            <a class="btn" href="https://wa.me/628569052024?text=Saya%20ingin%20pesan%20Ayam%20Saus%20Teriyaki%20dari%20D'CELUP%20CHICKEN%20CRISPY%202%20SRIKANDI" target="_blank">Order via WhatsApp</a>
+          </div>
+        </div>
+    
+        <div class="menu-item">
+          <div class="menu-img"><img src="https://via.placeholder.com/400x250?text=Barbekyu" alt="Ayam Saus Barbekyu" /></div>
+          <div class="menu-content">
+            <div class="menu-title">Ayam Saus Barbekyu</div>
+            <div class="menu-price">Rp 12.000 (tanpa nasi)<br>Rp 16.000 (paket + nasi)</div>
+            <a class="btn" href="https://wa.me/628569052024?text=Saya%20ingin%20pesan%20Ayam%20Saus%20Barbekyu%20dari%20D'CELUP%20CHICKEN%20CRISPY%202%20SRIKANDI" target="_blank">Order via WhatsApp</a>
+          </div>
+        </div>
+    
+        <div class="menu-item">
+          <div class="menu-img"><img src="https://via.placeholder.com/400x250?text=Keju" alt="Ayam Saus Keju" /></div>
+          <div class="menu-content">
+            <div class="menu-title">Ayam Saus Keju</div>
+            <div class="menu-price">Rp 12.000 (tanpa nasi)<br>Rp 16.000 (paket + nasi)</div>
+            <a class="btn" href="https://wa.me/628569052024?text=Saya%20ingin%20pesan%20Ayam%20Saus%20Keju%20dari%20D'CELUP%20CHICKEN%20CRISPY%202%20SRIKANDI" target="_blank">Order via WhatsApp</a>
+          </div>
+        </div>
+    
+        <div class="menu-item">
+          <div class="menu-img"><img src="https://via.placeholder.com/400x250?text=Mental" alt="Ayam Saus Mental" /></div>
+          <div class="menu-content">
+            <div class="menu-title">Ayam Saus Mental</div>
+            <div class="menu-price">Rp 12.000 (tanpa nasi)<br>Rp 16.000 (paket + nasi)</div>
+            <a class="btn" href="https://wa.me/628569052024?text=Saya%20ingin%20pesan%20Ayam%20Saus%20Mental%20dari%20D'CELUP%20CHICKEN%20CRISPY%202%20SRIKANDI" target="_blank">Order via WhatsApp</a>
+          </div>
+        </div>
+    
+        <div class="menu-item">
+          <div class="menu-img"><img src="https://via.placeholder.com/400x250?text=Original" alt="Ayam Original (Tanpa Saus, Tanpa Nasi)" /></div>
+          <div class="menu-content">
+            <div class="menu-title">Ayam Original (Tanpa Saus, Tanpa Nasi)</div>
+            <div class="menu-price">Rp 9.000</div>
+            <a class="btn" href="https://wa.me/628569052024?text=Saya%20ingin%20pesan%20Ayam%20Original%20(Tanpa%20Saus,%20Tanpa%20Nasi)%20dari%20D'CELUP%20CHICKEN%20CRISPY%202%20SRIKANDI" target="_blank">Order via WhatsApp</a>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">Tentang Kami</h2>
+      <p class="contact-info">
+        D'CELUP CHICKEN CRISPY 2 SRIKANDI adalah tempat makan ayam crispy yang terletak di kawasan strategis Jakarta Pusat. Kami menyajikan ayam goreng crispy dengan pilihan saus unik dan harga yang sangat bersahabat. Kualitas rasa dan pelayanan adalah prioritas utama kami.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title">Kontak Kami</h2>
+      <div class="contact-info">
+        <p><strong>Alamat:</strong> Dekat Jl. Cempaka Putih Raya 17-29, RT.7/RW.8, Cemp. Putih Tim., Kec. Cemp. Putih, Kota Jakarta Pusat, DKI Jakarta 10510</p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/628569052024" target="_blank">08569052024</a></p>
+        <p><strong>Metode Pembayaran:</strong></p>
+        <ul style="list-style: none; padding: 0;">
+          <li>💳 <strong>BRI</strong>: 323001027123530 (JUWITA RAHAYU)</li>
+          <li>📱 <strong>DANA</strong>: 08569052024 (JUWITA RAHAYU)</li>
+          <li>🏦 <strong>BCA</strong>: 7060431820 (JUWITA RAHAYU)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
